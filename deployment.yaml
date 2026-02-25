@@ -18,7 +18,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: ec2-user/test:latest
+      - image: khaleahmartin/test:latest
         name: flaskdemo
         resources: {}
 status: {}
@@ -36,5 +36,6 @@ spec:
     targetPort: 5000
   selector:
     app: flaskdemo
+
 
 
